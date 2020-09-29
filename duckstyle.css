@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: pink;
+}
+article {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+article img {
+    width: 100px;
+}
+
+article a {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: green;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+article a:hover {
+    background-color: rebeccapurple;
+    letter-spacing: 5px;
+}
+a {
+    color:green;
+}
+a:hover {
+    color: red;
+}
+article a {
+    color: purple;
+}
+
+nav a {
+    color: blue;
+}
+#contentNav a {
+    color: orange;
+}
+#etymolo {
+    color: black;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px){
+    body {
+        background-color: mediumaquamarine;
+    }
+    article img {
+        width: 100%;
+    }
+    article {
+        display: flex;
+        flex-direction:column;
+        align-items: flex-end;
+    }
+}
